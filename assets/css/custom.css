@@ -1,0 +1,281 @@
+/*.hentry .entry-content {*/
+/*  padding: 75px 0;*/
+/*}*/
+/*.hentry .entry-footer {*/
+/*  padding-bottom: 75px;*/
+/*}*/
+
+/*@media screen and (max-width: 767px) {*/
+/*  .hentry .entry-content {*/
+/*    padding: 45px 0;*/
+/*  }*/
+/*  .hentry .entry-footer {*/
+/*    padding-bottom: 45px;*/
+/*  }*/
+/*}*/
+
+.capabilities-grid__line-bottom {
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+  }
+  
+  .capabilities-grid__line-right {
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: -16px;
+    left: -1px;
+  }
+  
+  .capabilities-grid__line-left {
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: -16px;
+    right: -1px;
+  }
+  
+  .thumbs__carousel .swiper {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+  }
+  
+  .wp-block-quote {
+    border-left: 0;
+  }
+  
+  .page-heading {
+    padding-top: 150px;
+    padding-bottom: 63px;
+    margin-bottom: 0;
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .page-heading {
+      padding-top: 60px;
+    }
+  }
+  
+  .page-content-border {
+    border-top: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .view-more-feedback {
+    margin-top: 6px;
+  }
+  
+  /* Map project */
+  
+  .map-project.active {
+    display: flex;
+    flex-direction: column;
+  }
+  .map-project__main {
+    overflow-y: scroll;
+  }
+  
+  /* Team */
+  
+  .team-card.no-image {
+    display: flex;
+    align-self: normal;
+    transition: 0.3s all;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .team-card.no-image {
+      min-height: 330px;
+    }
+  }
+  
+  .team-card.no-image .team-card__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    background-color: #323232;
+    transition: 0.3s all;
+  }
+  
+  .team-card__hover,
+  .team-card.no-image .team-card__bottom {
+    transition: 0.3s all;
+  }
+  
+  .team-card.no-image:not(:hover) .team-card__bottom {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+  }
+  
+  .fade-in {
+    animation: fadeIn ease 0.5s;
+    opacity: 1;
+    -webkit-animation: fadeIn ease 0.5s;
+    -moz-animation: fadeIn ease 0.5s;
+    -o-animation: fadeIn ease 0.5s;
+    -ms-animation: fadeIn ease 0.5s;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  .fade-out {
+    animation: fadeOut ease 1.0s;
+    opacity: 0;
+    display: none;
+    -webkit-animation: fadeOut ease 1.0s;
+    -moz-animation: fadeOut ease 1.0s;
+    -o-animation: fadeOut ease 1.0s;
+    -ms-animation: fadeOut ease 1.0s;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  /* Projects gallery card */
+  
+  .projects-gallery-card__tag {
+    margin-right: 10px;
+  }
+  
+  .projects-gallery-card__tag:last-child {
+    margin-right: 0;
+  }
+  
+  /* Header */
+  
+  .header-company-logos {
+    transform: translate3d(-100%, 0, 0);
+    transition-duration: 0.8s !important;
+    animation-delay: -0.3s;
+    will-change: auto;
+  
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+  
+    -webkit-transform-style: preserve-3d;
+    useTranslate3d: true;
+    z-index: 1;
+  }
+  
+  img::before {
+    display: block;
+    content: '';
+    padding-top: calc(100% * 2 / 3);
+  }
+  
+  .logo-header img {
+    transform: translateZ(0);
+    will-change: transform;
+    content-visibility: auto;
+    contain-intrinsic-size: 300px;
+  }
