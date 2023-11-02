@@ -1,7 +1,7 @@
 # Brains-International
 It is an architectural company website that describes best the services and skills they can serve to their clients.
 
-##Screenshot
+## Screenshot
 
 <!-- Center and widen the screenshot -->
 <div align="center">
